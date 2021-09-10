@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  
+  
+}
+
+.container{
+  width: 120px;
+  height: 250px;
+  background-color: silver;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 2px;
+ 
+}
+
+.circle{
+  width: 60px;
+  height: 60px;
+  background-color: #151617;
+  border-radius: 50%;
+}
+
+
+

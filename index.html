@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafffic-Light</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    
+   <div>
+      <div class="container mt-5">
+          <div class="circle red" id="red"></div>
+          <div class="circle yellow" id="yellow"></div>
+          <div class="circle green" id="green"></div>
+      </div>
+   </div>
+   <div class="mt-5">
+     <div class="row">
+       <div class="col-4"></div>
+       <div class="col-4">
+        <div class="text-center p-2 m-2">
+          <button class="btn btn-primary"  onclick="on_lights()">Switch ON</button>
+          <button class="btn btn-dark" onclick="off_lights()">Switch OFF</button>
+          <button class="btn btn-success" onclick="green_light()">Turn ON</button>
+          <button class="btn btn-danger" onclick="red_light()">Turn ON</button>
+          <button class="btn btn-warning" onclick="yellow_blink()">Turn ON </button>
+          </div>
+       </div>
+       <div class="col-4"></div>
+     </div>
+   </div>
+
+    
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
